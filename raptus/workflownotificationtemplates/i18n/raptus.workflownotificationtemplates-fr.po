@@ -1,7 +1,3 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# French translations for zi package
-# Traductions francaises du paquet zi.
-# Simon Käser <skaeser@raptus.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: raptus.workflownotificationtemplates\n"
@@ -22,47 +18,54 @@ msgstr ""
 #. Default: "Add new template"
 #: browser/configlet.pt:82
 msgid "Add new template"
-msgstr ""
+msgstr "Ajouter un nouveau modèle de notification"
 
 #: browser/configlet.py:76
 msgid "Edit notification template"
-msgstr ""
+msgstr "Edition du modèle de notification"
 
 #. Default: "Manage notification templates"
 #: browser/configlet.pt:24
 msgid "Manage notification templates"
-msgstr ""
+msgstr "Gérer les modèles de notification"
 
 #. Default: "Registered templates"
 #: browser/configlet.pt:37
 msgid "Registered templates"
-msgstr ""
+msgstr "Modèles enregistrés"
 
 #. Default: "Template"
 #: browser/configlet.pt:50
 msgid "Template"
-msgstr ""
+msgstr "Modèle"
 
 #. Default: "There are no templates registered."
 #: browser/configlet.pt:41
 msgid "There are no templates registered."
-msgstr ""
+msgstr "Il n'existe aucun modèle enregistré"
 
 #: browser/configlet.py:57
 msgid "Workflow (Action)"
 msgstr ""
 
-#. Default: "The following keywords may be used in the form of %(keyword)s:\nname (the full name of the receiver),\nurl (the url to the content object),\ntitle (the title of the content object),\nold_state (the old state of the content object),\nnew_state (the new state of the content object),\ntransition (the transition made on the the content object),\nissuer (the full name of the issuer)"
+#. Default: "The following keywords may be used in the form of %(keyword)s:\nname (the full name of the receiver),\nurl (the url to the content object),\ntitle (the title of the content object),\nold_state (the old state of the content object),\nnew_state (the new state of the content object),\ntransition (the transition made on the content object),\nissuer (the full name of the issuer)"
 #: browser/configlet.py:62
 msgid "description_template"
-msgstr ""
+msgstr "Il est possible d'utilisaer les mots-clés suivants au format %(mot-clé)s:\n"
+"name (le nom complet du destinataire),\n"
+"url (l'adresse de l'objet concerné),\n"
+"titre (le titre de l'objet concerné),\n"
+"old_state (l'ancien état de l'objet concerné),\n"
+"new_state (le nouvel état de l'objet concerné),\n"
+"transition (l'action appliquée),\n"
+"issuer (le nom complet de l'émetteur)"
 
 #. Default: "Notification template deleted"
 #: browser/configlet.py:32
 msgid "message_deleted"
-msgstr ""
+msgstr "Modèle de notification supprimé"
 
 #. Default: "Notification template saved"
 #: browser/configlet.py:107
 msgid "message_success"
-msgstr ""
+msgstr "Modèle de notification sauvegardé"
