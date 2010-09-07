@@ -7,7 +7,7 @@ Changelog
 * added french translations
 
 0.1 - (2009-10-30)
-----------------
+------------------
 
 * Initial release
 
