@@ -2,6 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:five="http://namespaces.zope.org/five"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
     i18n_domain="raptus.workflownotificationtemplates">
   
     <five:registerPackage package="." />
@@ -31,6 +32,7 @@
 
     <utility 
         component=".workflownotificationtemplatesdomain"
-        name="raptus.workflownotificationtemplates" />
+        name="raptus.workflownotificationtemplates" 
+        zcml:condition="not-have plone-4" />
 
 </configure>

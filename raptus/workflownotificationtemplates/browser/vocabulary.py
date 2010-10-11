@@ -6,6 +6,7 @@ from raptus.workflownotificationtemplates.interfaces import IPossibleNotificatio
 def availableWorkflows(context):
     utilities = getAllUtilitiesRegisteredFor(IPossibleNotificationTemplates)
     terms = []
+    
     for utility in utilities:
         terms.extend([SimpleTerm(value, value, title) for value, title in utility.names(context)])
     return SimpleVocabulary(terms)
