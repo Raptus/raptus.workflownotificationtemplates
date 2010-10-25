@@ -57,7 +57,7 @@ msgstr "Die folgenden Schlüsselwörter können in der Form %(schlüsselwort)s v
 "title (Titel de betroffenen Objekts),\n"
 "old_state (Der alte Status des Objekts),\n"
 "new_state (Der neue Status des Objekts),\n"
-"transition (Die Aktion die asgeführt wurde),\n"
+"transition (Die Aktion die ausgeführt wurde),\n"
 "issuer (Name des Auslösers)"
 
 #. Default: "Notification template deleted"
